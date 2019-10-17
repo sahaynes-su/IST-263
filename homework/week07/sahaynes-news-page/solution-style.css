@@ -28,20 +28,4 @@ img.responsive {
     padding: 10px;
 }
 
-header {
-    background: #333333;
-    color: #333333;
-    font-family: 'Source Sans Pro', sans serif;
-}
 
-div.header {
-    padding: 5px;
-}
-
-div.header p {
-    margin: 0;
-}
-
-div.header h1 {
-    margin: 2px 0;
-}
