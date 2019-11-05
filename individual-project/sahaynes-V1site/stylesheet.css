@@ -1,4 +1,7 @@
 
+body {
+  background-color: #f5edd0;
+}
 /* header style */
 header {
   background-color: #f5edd0;
@@ -9,19 +12,46 @@ header {
 }
 
 /* h1 in header style*/
-#header {
+.header {
   color: #005470;
   font-family: 'Oswald', sans-serif;
   margin-bottom: -10px;
 }
 
 /*p in header style*/
-#kicker {
+.kicker {
   color: #9e1c0f;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 24px;
 }
 
+.ismaLogo {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  padding: 20px;
+  right: 400px;
+  top: 70px;
+  align-content: center;
+}
+
+.ismaLogo img {
+  width: 220%;
+}
+
+.lodge2logo {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  padding: 20px;
+  right: 200px;
+  top: 70px;
+  align-content: center;
+}
+
+.lodge2logo img {
+  width: 200%;
+}
 
 /*homepage intro style*/
 main {
@@ -33,6 +63,7 @@ main {
   background-attachment: fixed;
 }
 
+/*navbar*/
 ul {
   list-style-type: none; /*removes bullets*/
   padding: 8px;
@@ -40,17 +71,20 @@ ul {
   overflow: visible;
 }
 
+/*items in navbar*/
 li {
   display: inline; /*displays all list items on one line*/
   font-family: 'Oswald', sans-serif;
   font-size: 22px; 
 }
 
+/*links in navbar*/
 li a {
   padding: 8px;
   text-decoration: none;
 }
 
+/*navbar psuedo-classes*/
 li a:link {
   color: #9e1c0f;
 }
@@ -68,14 +102,13 @@ li a:active {
 }
 
 /*center text in intro on homepage*/
-#center {
+.introContainer {
   margin-top: 120px;
   margin-bottom: 100px;
   margin-right: 480px;
   margin-left: 330px;
   width: 60%;
   height: 40%;
-  padding: 5px;
   text-align: center;
 }
 
@@ -85,188 +118,189 @@ h1 {
 }
 
 /*h2 in intro on homepage*/
-h2 {
+.introContainer h2 {
   color: white;
   text-align: center; 
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   font-size: 100px;
-  margin: -25px;
+  margin: -15px;
+  width: 100%;
 }
 
 /* p styling on homepage intro*/
-#center p {
+.introContainer p {
   text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   color: #9e1c0f;
-  padding-left: 50px;
-  margin-top: 70px;
+  margin-top: 85px;
   font-size: 24px;
-  margin-bottom: -15px;
+  margin-bottom: -20px;
   text-transform: uppercase;
 }
 
 section {
   background-color: #f5edd0;
-  padding-top: 20px;
 }
 
-section h3 {
+.sectionHeader {
+  background-color: white;
   color: #005470; 
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
+  font-size: 60px;
   text-align: center;
-  font-size: 80px;
-}
-
-.prize1 {
-  margin: auto;
-  width: 80%;
-  height: 80%;
-  padding-left: 270px; /*centers the image within the div*/
-}
-
-/*prize section image format*/
-.prize1 img {
-  border-style: solid;
-  border-color: white;
-  border-width: 30px;
-  width: 70%;
-}
-
-#grandPrize h3 {
-  color: white;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  position: absolute;
-  left: 400px;
-  top: 1065px;
-  font-size: 48px;
-  text-transform: uppercase;
-}
-
-#grandPrize p {
-  color: white;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  position: absolute;
-  left: 390px;
-  top: 1475px;
-  font-size: 24px;
-  line-height: 35px;
-}
-
-.prize2 {
-  margin: auto;
-  width: 80%;
-  height: 80%;
-  padding: 60px;
-  padding-left: 270px; /*centers the image within the div*/
-}
-
-.prize2 img {
-  border-style: solid;
-  border-color: white;
-  border-width: 30px;
-  width: 70%;
-}
-
-#secondPrize h4 {
-  color: #005470;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  position: absolute;
-  left: 390px;
-  top: 1700px;
-  font-size: 48px;
-  text-transform: uppercase;
-}
-
-#secondPrize p {
-  color: white;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  position: absolute;
-  left: 390px;
-  top: 2150px;
-  font-size: 24px;
-  line-height: 35px;
-}
-
-.prize3 {
-  margin: auto;
-  width: 80%;
-  height: 80%;
-  padding: 10px;
-  padding-left: 270px; 
-}
-
-.prize3 img {
-  border-style: solid;
-  border-color: white;
-  border-width: 30px;
-  width: 70%;
-}
-
-#thirdPrize h4 {
-  color: white;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  position: absolute;
-  left: 400px;
-  top: 2425px;
-  font-size: 48px;
-  text-transform: uppercase;
-}
-
-#thirdPrize p {
-  color: white;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  position: absolute;
-  left: 390px;
-  top: 2815px;
-  font-size: 24px;
-  line-height: 35px;
 }
 
 /*container holding image*/
-.container {
+.prizeContainer {
   position: relative;
-  padding-left: 150px;
-  background-color: black;
   align-content: center;
+  display: inline-block;
+  padding-bottom: 60px;
+  text-align: center;
 }
 
 /* prize title text block over image */
-.prizeTitle-block {
+.prizeTitle {
   position: absolute;
-  top: 20px;
-  left: 20px;
-  background-color: black;
+  top: 55px;
+  left: 300px;
+  padding-left: 40px;
 }
 
 /*prize title*/
-.prizeTitle-block h3 {
+.prizeTitle h3 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-transform: uppercase;
   color: white;
-  font-size: 48px;
+  font-size: 52px;
 }
 /*prize info text block over image*/
-.prizeInfo-block {
+.prizeInfo {
   position: absolute;
-  bottom: 20px;
-  left: 20px;
+  bottom: 130px;
+  left: 325px;
 }
 
 /*prize info*/
-.prizeInfo-block p {
+.prizeInfo p {
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: white;
   font-size: 24px;
 }
 
 /*image in container*/
-.container img {
+.prizeContainer img {
   border-style: solid;
   border-color: white;
-  border-width: 30px;
-  width: 80%;
-  vertical-align: middle;
+  border-width: 50px;
+  width: 60%;
+  align-self: center;
 }
 
+article {
+  background-color: #9e1c0f;
+  padding: 30px;
+}
 
+article h4 {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 32px;
+}
+
+.button {
+  background-color: #005470;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+article a:link {
+  color: white;
+}
+
+article a:visited {
+  color: white;
+}
+
+article a:hover {
+  color: #bdd9d6
+}
+
+article a:active {
+  color: white
+}
+
+.articleContainer {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.footer {
+  background-color: white;
+  text-align: right;
+  padding: 10px;
+}
+
+.footer p {
+  font-family: 'Roboto Condensed',sans-serif;
+  color: #005470
+}
+
+.reference {
+  text-align: center;
+  padding: 10px;
+
+}
+
+.galleryContainer {
+  padding-top: 60px;
+  text-align: center;
+}
+.gallery {
+  margin: 5px;
+  border: 2px solid #005470;
+  width: 180px;
+  text-align: center;
+}
+
+.gallery:hover {
+  border: 2px solid #bdd9d6;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #9e1c0f;
+}
+
+/*prize details container*/
+.detailsContainer {
+  background-color: white;
+  padding: 30px;
+  margin: 30px;
+}
+
+.detailsContainer h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  color: #9e1c0f;
+}
+
+.detailsContainer p {
+  font-family: 'Roboto Condensed', sans-serif;
+}
