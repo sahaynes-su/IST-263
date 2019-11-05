@@ -1,0 +1,272 @@
+
+/* header style */
+header {
+  background-color: #f5edd0;
+  padding: 20px;
+  border-bottom-style: solid;
+  border-color: #9e1c0f;
+  border-width: 5px;
+}
+
+/* h1 in header style*/
+#header {
+  color: #005470;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: -10px;
+}
+
+/*p in header style*/
+#kicker {
+  color: #9e1c0f;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px;
+}
+
+
+/*homepage intro style*/
+main {
+  background-image: url(images/Oberstar5.jpg);
+  background-repeat: no-repeat;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+ul {
+  list-style-type: none; /*removes bullets*/
+  padding: 8px;
+  margin: 0px;
+  overflow: visible;
+}
+
+li {
+  display: inline; /*displays all list items on one line*/
+  font-family: 'Oswald', sans-serif;
+  font-size: 22px; 
+}
+
+li a {
+  padding: 8px;
+  text-decoration: none;
+}
+
+li a:link {
+  color: #9e1c0f;
+}
+
+li a:visited {
+  color: #9e1c0f;
+}
+
+li a:hover {
+  color: #bdd9d6
+}
+
+li a:active {
+  color: #9e1c0f
+}
+
+/*center text in intro on homepage*/
+#center {
+  margin-top: 120px;
+  margin-bottom: 100px;
+  margin-right: 480px;
+  margin-left: 330px;
+  width: 60%;
+  height: 40%;
+  padding: 5px;
+  text-align: center;
+}
+
+/* h1 in header*/
+h1 {
+  font-family: 'Oswald', sans-serif;
+}
+
+/*h2 in intro on homepage*/
+h2 {
+  color: white;
+  text-align: center; 
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 100px;
+  margin: -25px;
+}
+
+/* p styling on homepage intro*/
+#center p {
+  text-align: left;
+  color: #9e1c0f;
+  padding-left: 50px;
+  margin-top: 70px;
+  font-size: 24px;
+  margin-bottom: -15px;
+  text-transform: uppercase;
+}
+
+section {
+  background-color: #f5edd0;
+  padding-top: 20px;
+}
+
+section h3 {
+  color: #005470; 
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 80px;
+}
+
+.prize1 {
+  margin: auto;
+  width: 80%;
+  height: 80%;
+  padding-left: 270px; /*centers the image within the div*/
+}
+
+/*prize section image format*/
+.prize1 img {
+  border-style: solid;
+  border-color: white;
+  border-width: 30px;
+  width: 70%;
+}
+
+#grandPrize h3 {
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: absolute;
+  left: 400px;
+  top: 1065px;
+  font-size: 48px;
+  text-transform: uppercase;
+}
+
+#grandPrize p {
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: absolute;
+  left: 390px;
+  top: 1475px;
+  font-size: 24px;
+  line-height: 35px;
+}
+
+.prize2 {
+  margin: auto;
+  width: 80%;
+  height: 80%;
+  padding: 60px;
+  padding-left: 270px; /*centers the image within the div*/
+}
+
+.prize2 img {
+  border-style: solid;
+  border-color: white;
+  border-width: 30px;
+  width: 70%;
+}
+
+#secondPrize h4 {
+  color: #005470;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: absolute;
+  left: 390px;
+  top: 1700px;
+  font-size: 48px;
+  text-transform: uppercase;
+}
+
+#secondPrize p {
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: absolute;
+  left: 390px;
+  top: 2150px;
+  font-size: 24px;
+  line-height: 35px;
+}
+
+.prize3 {
+  margin: auto;
+  width: 80%;
+  height: 80%;
+  padding: 10px;
+  padding-left: 270px; 
+}
+
+.prize3 img {
+  border-style: solid;
+  border-color: white;
+  border-width: 30px;
+  width: 70%;
+}
+
+#thirdPrize h4 {
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: absolute;
+  left: 400px;
+  top: 2425px;
+  font-size: 48px;
+  text-transform: uppercase;
+}
+
+#thirdPrize p {
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: absolute;
+  left: 390px;
+  top: 2815px;
+  font-size: 24px;
+  line-height: 35px;
+}
+
+/*container holding image*/
+.container {
+  position: relative;
+  padding-left: 150px;
+  background-color: black;
+  align-content: center;
+}
+
+/* prize title text block over image */
+.prizeTitle-block {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: black;
+}
+
+/*prize title*/
+.prizeTitle-block h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 48px;
+}
+/*prize info text block over image*/
+.prizeInfo-block {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+/*prize info*/
+.prizeInfo-block p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  font-size: 24px;
+}
+
+/*image in container*/
+.container img {
+  border-style: solid;
+  border-color: white;
+  border-width: 30px;
+  width: 80%;
+  vertical-align: middle;
+}
+
+
