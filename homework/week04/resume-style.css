@@ -1,0 +1,59 @@
+header {
+    background-color: #454E4D
+}
+
+header h1 {
+    text-align: center;
+}
+
+header p {
+    text-align: center;
+    color: #9DC0BC;
+    padding-top: 40px;
+}
+body {
+    background-color: #DBDBDB;
+}
+h1 {
+    font-family: 'Oswald';
+    color: white;
+    font-size: 50px;
+    height: 35px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+h2 {
+    font-family: 'Oswald';
+    color: #F77833;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+p {
+    font-family: 'Oswald';
+    color: #454E4D;
+    padding-left: 20px;
+}
+
+ul {
+    font-family: 'Roboto';
+    color: #454E4D;
+    padding-left: 20px;
+}
+
+li {
+    padding-left: 20px;
+}
+
+a {
+    color: #9DC0BC;   
+}
+
+aside {
+    padding: 20px;
+}
+
+footer p {
+    text-align: center;
+}
