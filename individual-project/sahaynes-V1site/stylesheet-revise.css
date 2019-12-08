@@ -98,10 +98,12 @@ body {
 
 .grandprizeRow {
     margin-top: 30px;
+    background-color: #f5edd0;
 }
 
 .thirdprizeRow {
     margin-bottom: 30px;
+    background-color: #f5edd0;
 }
 
 .section {
@@ -205,6 +207,10 @@ body {
 .lines {
     border-left: solid 2px #9e1c0f;
     border-right: solid 2px #9e1c0f;
+}
+
+a {
+    color: white;
 }
 
 
