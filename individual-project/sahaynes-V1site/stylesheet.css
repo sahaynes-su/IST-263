@@ -46,7 +46,7 @@ li {
   font-size: 22px; 
 }
 
-li a {
+nav a {
   padding: 8px;
   text-decoration: none;
 }
@@ -55,16 +55,16 @@ li a:link {
   color: #9e1c0f;
 }
 
-li a:visited {
+nav a:visited {
   color: #9e1c0f;
 }
 
-li a:hover {
-  color: #bdd9d6
+nav a:hover {
+  color: #bdd9d6;
 }
 
-li a:active {
-  color: #9e1c0f
+nav a:active {
+  color: #9e1c0f;
 }
 
 /*center text in intro on homepage*/
