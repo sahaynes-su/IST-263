@@ -1,0 +1,210 @@
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* HEADER STYLE */
+#headerBackground {
+    background-color: #f5edd0;
+    border-bottom: 5px solid #9e1c0f;
+    padding:30px;
+}
+
+#headerTitle {
+    font-family: 'Oswald', sans-serif;
+    color: #005470;
+    font-size: 36px;
+    margin:5px;
+}
+
+#headerSubtitle {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #9e1c0f;
+    font-size: 24px;
+    margin: 5px;
+}
+
+/*HOMEPAGE INTRO STYLE*/
+#main /*intro background*/ {
+    background-image: url(images/Oberstar5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative; /*parent for nav, mainTitle, subTitle */
+    height: 600px;
+    border-bottom: 5px solid #9e1c0f;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #9e1c0f;
+    font-family: 'Oswald',sans-serif;
+    font-size: 18px;
+    background-color: white;
+}
+
+.navbar-nav .nav-item .nav-link:visited {
+    color: #9e1c0f;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #005470;
+}
+
+.navbar-nav .nav-item .nav-link:active {
+    color: #9e1c0f;
+}
+
+.nav /*nav container*/ {
+    position: absolute;
+    top: 5px;
+    left: 30px;
+    padding: 7px;
+}
+
+#mainTitle /* intro text container */ {
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    padding: 20px;
+}
+
+#mainTitle h2 {
+    margin: 0px;
+    color: #ffffff;
+    font-family: 'Oswald',sans-serif;
+    text-transform: uppercase;
+    font-size: 80px;
+    
+}
+
+#mainTitle p {
+    margin: 0px;
+    color: white;
+    font-family: 'Oswald',sans-serif;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.container {
+    background-color: #f5edd0;
+}
+
+.row {
+    margin: 30px;
+    background-color: #f5edd0;
+    margin-top: 0;
+}
+
+.grandprizeRow {
+    margin-top: 30px;
+}
+
+.thirdprizeRow {
+    margin-bottom: 30px;
+}
+
+.section {
+    background-color: #f5edd0;
+}
+
+/* HOMEPAGE PRIZE INFO */
+.prizeTitle {
+    font-family: 'Oswald', sans-serif;
+    color: #005470;
+    font-size: 40px; 
+}
+
+.prizeInfo {
+    padding: 50px;
+    background-color: white;
+}
+
+.prizeImg {
+    padding: 20px;
+    background-color: white;
+}
+
+.prizeText {
+    font-family: 'Roboto Condensed',sans-serif;
+    font-size: 18px;
+}
+
+#prizeDetails {
+    position: relative;
+    background-color: #f5edd0;
+}
+
+/*TICKET/DRAWING DETAILS*/
+
+.redText {
+    color: #9e1c0f;
+    font-family: 'Oswald',sans-serif;
+    font-size: 28px;
+    padding-top: 10px;
+}
+
+.bodyText {
+    color: #222;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+}
+
+.whiteBack {
+    background-color: white;
+}
+
+.btn-primary {
+    background-color: #005470;
+}
+
+.btn-primary:hover {
+    background-color: #ffd500;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.drawSection {
+    background: white;
+}
+
+.padding {
+    padding: 30px;
+}
+
+/*PRIZE DETAILS*/
+
+.blueRow {
+    background-color: #005470;
+}
+
+.redRow {
+    background-color: #9e1c0f;
+}
+
+.redHeader{
+    color: #9e1c0f;
+    font-family: 'Oswald',sans-serif;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.whiteHeader {
+    color: white;
+    padding: 10px;
+    font-family: 'Oswald',sans-serif;
+}
+
+.whiteText {
+    color: white;
+    font-family: 'Roboto Condensed',sans-serif;
+}
+
+.lines {
+    border-left: solid 2px #9e1c0f;
+    border-right: solid 2px #9e1c0f;
+}
+
+
